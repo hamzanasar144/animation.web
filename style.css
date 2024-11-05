@@ -1,0 +1,41 @@
+.com {
+    
+    background-color: rgb(32, 197, 54);/* color: aqua; */
+    width: 200px;
+    height: 150px;
+    animation-name:  newanimation;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    /* animation-delay: 2s; */
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes newanimation{
+    0%{
+        /* background-color: darkcyan; */
+    }
+    25%{
+        background-color: lightcyan;
+        transform: translateX(500px);
+        border-radius: 30px;
+    }
+    50%{
+        background-color: aqua;
+        /* transform: translateX(1000px); */
+        transform: translateY(500px);
+        border-radius: 500px;
+        transform: translateZ(3);
+    }
+    75%{
+        background-color: blue;
+        border-radius: 50%;    
+        
+    }   
+    100%{
+      background-color: gold;
+      border-radius: 50px;
+    }
+
+    
+}
