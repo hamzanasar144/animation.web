@@ -1,3 +1,10 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: aqua;
+}
 .com {
     
     background-color: rgb(32, 197, 54);/* color: aqua; */
